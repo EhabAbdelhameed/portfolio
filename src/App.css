@@ -1,0 +1,134 @@
+.sections-container{
+    
+    display: block;
+    text-align: flex-start;
+    justify-content: flex-end;
+    color: white;
+    margin: 0;
+    background: rgb(26, 27, 30);
+}
+
+section{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+.Headings{
+    display: inline-block;
+    color: white;
+    font-family: 'Righteous', serif;
+    font-size: 5vw; 
+    text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
+}
+.record{
+    z-index: 20;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    border-radius: 50px;
+}
+
+.record-cover-play{
+    z-index: 1000;
+    position:fixed;
+    top: 10px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    
+    border-radius: 50px;
+    background-image: url("./components/UIelements/record.png");
+    background-size: contain;
+    animation:60s spin infinite linear;
+}
+.record-cover-pause{
+    z-index: 1000;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    
+    border-radius: 50px;
+    background-image: url("./components/UIelements/record.png");
+    background-size: contain;
+    /* animation:10s spin infinite linear; */
+}
+@keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.record-btn{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.footer {
+    width: 12vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    position: relative;
+}
+   .contact-icon  i{
+    height: max-content;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: auto;
+    font-size: 30px;
+    color:  hsla(230,40%,50%,1);
+}
+   .footer .col {
+    height: 25vh;
+    padding: 0px 0px;
+    margin: 0;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-btn{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 70px;
+    width: 70px;
+    font-size: 38px;
+    color:hsla(230,40%,50%,1);
+    background-color: transparent;
+    border: none;
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}

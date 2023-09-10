@@ -1,0 +1,23 @@
+.buton {
+ color:  hsla(230,40%,50%,1);
+ background-color: transparent;
+ border-radius: 0;
+ border: 1px solid hsla(230,40%,50%,1);
+ font-size: 20px;
+ font-weight: 300;
+ min-width: 20vh;
+ min-height: 40px;
+ text-align: center;
+}
+.buton a {
+ min-width: 100%;
+ font-size: 20px;
+ color:  hsla(230,40%,50%,1);
+ font-weight: 300;
+}
+
+
+.buton:disabled {
+ color: rgb(70, 70, 70);
+}
+

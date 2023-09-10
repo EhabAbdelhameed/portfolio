@@ -1,0 +1,56 @@
+
+.skills-container .row {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.dang-skills h1 {
+    display: inline-block;
+    color: white;
+    font-family: 'Righteous', serif;
+    font-size: 5vw; 
+    text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
+}
+  
+
+
+.skills-paragraph {
+    color: white;
+    font-family: 'Righteous', serif;
+    font-size: 28px; 
+    margin-right: 10px;
+    text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
+}
+.dang-skills i{
+  padding: 20px;
+  transform-origin: 50% 50% ;
+  animation: spin 60s linear  infinite ;
+  transform-style: preserve-3D;
+}
+@keyframes spin {
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(3600deg);
+  }
+}
+
+.skills-container .col-sm-6 {
+ padding: 0;
+ margin: 0;
+}
+.skills-container .col-sm-4 {
+ padding: 0;
+ margin: 0;
+ transition: transform 1s;
+}
+
+
+@media screen and (max-width: 770px) {
+  .dang-skills h1 {
+      font-size: 7vw;
+     }
+}

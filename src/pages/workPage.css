@@ -1,0 +1,53 @@
+.project-card{
+    background-color: white;
+    height: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+
+.project-card img {
+ object-fit: contain;
+ height: 100%;
+ width: 100%;
+}
+
+.cards-row {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ padding: 0;
+ margin: 0;
+ justify-content: flex-start;
+}
+
+.place-item__modal-content {
+ padding: 0;
+}
+
+.place-item__modal-actions {
+ text-align: right;
+}
+
+
+hr{
+    text-align: end;
+    color: white;
+    width: 90%;
+    height: 2px;
+}
+
+@media screen and (max-width: 560px) {
+    .cards-row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+       }
+       
+  }
