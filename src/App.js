@@ -81,7 +81,7 @@ const App = () => {
         <div className=" footer">
           <div className="contact-icon">
             <a
-              href="//www.linkedin.com/in/kremelhosary/"
+              href="https://www.linkedin.com/in/ehab-abd-alhmed-5b2381190/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -91,7 +91,7 @@ const App = () => {
           </div>
           <div className="contact-icon">
             <a
-              href="//github.com/eskiimo"
+              href="https://github.com/EhabAbdelhameed"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -102,7 +102,7 @@ const App = () => {
 
           <div className="contact-icon">
             <a
-              href="//fb.com/kremkamall"
+              href="https://www.facebook.com/profile.php?id=100012038808205&locale=ar_AR"
               target="_blank"
               rel="noopener noreferrer"
             >

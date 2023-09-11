@@ -62,22 +62,7 @@ const MyModal = (props) => {
                           </a>
                         </button>
                       </Col>
-                      <Col
-                        xs="12"
-                        md="5"
-                        className=" link  justify-content-center"
-                      >
-                        <button className="link link-apple">
-                          <a
-                            style={{ display: "block" }}
-                            href={props.project.appleLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            .
-                          </a>
-                        </button>
-                      </Col>
+                
                     </Row>
                   )}
                 </Col>

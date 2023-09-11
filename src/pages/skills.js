@@ -15,9 +15,9 @@ const Skills = () => {
             <p className="skills-paragraph">HTML, CSS, JS</p>
             <p className="skills-paragraph">React.js</p>
             <p className="skills-paragraph">Gatsby.js</p>
-            <p className="skills-paragraph">Next.js</p>
-            <p className="skills-paragraph">Flutter</p>
-            <p className="skills-paragraph">Dart</p>
+            <p className="skills-paragraph">React Native</p>
+            <p className="skills-paragraph">React Redux</p>
+            <p className="skills-paragraph">UI/UX Design</p>
           </div>
         </Col>
         <Col xs="11" md="6" className="anime">
@@ -31,6 +31,10 @@ const Skills = () => {
             <p className="skills-paragraph">Express</p>
             <p className="skills-paragraph">MongoBD</p>
             <p className="skills-paragraph">Graphql</p>
+            <p className="skills-paragraph">Sql Server</p>          
+            <p className="skills-paragraph">RestFul APIs</p>
+
+            
           </div>
         </Col>
       </Row>

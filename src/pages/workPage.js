@@ -5,33 +5,57 @@ import "./workPage.css";
 
 const PROJECT_LIST = [
   {
-    logo: "/assets/harth-logo.jpg",
-    name: "Harth - حارث ",
+    logo: "/assets/harth-logo.png",
+    name: "Teslam - تسلم ",
     image: "/assets/harth-1.jpg",
     p2:
-      " Harith application The fastest way to buy and sell crops, farm equipment  and everything related to agriculture and farmers You can display products near you and choose the categories that suit your needs Please have apleasant experience!",
+      " TESLM is a customer centric homemade food app in Egypt, Where you can find and buy your favorite meals made in home for you",
     p1:
-      "Built the Front End with Flutter. Available on Google Play Store and Apple Store",
-    googleLink: "https://play.google.com/store/apps/details?id=com.harth.store",
-    appleLink:
-      "https://apps.apple.com/eg/app/%D8%AD%D8%A7%D8%B1%D8%AB/id1553536945",
+      "Built the Front End with React Native. Available on Google Play Store ",
+    googleLink: "https://play.google.com/store/apps/details?id=com.teslam_app&pli=1",
+
   },
   {
-    logo: "/assets/acad-mern.jpg",
-    name: "MERN",
-    image: "/assets/acad-mern-home.jpg",
-    p1: " React, NodeJS, Express & MongoDB - The MERN Fullstack Guide",
+    logo: "/assets/unnamed.jpg",
+    name: "poultrystocks - بورصة الدواجن ",
+    image: "/assets/checken.jpg",
     p2:
-      "Created by Academind by Maximilian Schwarzmüller, Maximilian Schwarzmüller, Manuel Lorenz",
-    link: "https://acad-mern-kareem.netlify.app/",
+      " An application to display the daily prices of eggs and chicks And the detection of diseases and methods oftreatment and medicines",
+    p1:
+      "Built the Front End with React Native. Available on Google Play Store ",
+    googleLink: "https://play.google.com/store/apps/details?id=com.app.poultrystocks",
+
   },
+  {
+    logo: "/assets/AppLogo.png",
+    name: "Education App - تطبيق المدرسين",
+    image: "/assets/3.jpg",
+    p2:
+    "This app for education in Egypt. It is a complete follow up system for teachers to enable them communicate with their students through giving them exams daily or weekly or monthly.",
+    p1:
+      "Built the Front End with React Native. Available on Google Play Store ",
+    googleLink: "https://drive.google.com/drive/folders/1pM7W-ipiC6MVNbi-sfLBGyMn5hxwTl7O?usp=drive_link",
+
+  },
+  {
+    logo: "/assets/logo.png",
+    name: "Education App - تطبيق المدرسين",
+    image: "/assets/2.jpg",
+    p2:
+    "This app for education in Egypt. It is a complete follow up system for teachers to enable them communicate with their students through giving them exams daily or weekly or monthly.",
+    p1:
+      "Built the Front End with React Native. Available on Google Play Store ",
+    googleLink: "https://drive.google.com/drive/folders/1RhUCNSyfesAXsZORkSSkQpMXP5cTbEbJ?usp=sharing",
+
+  },
+
   {
     logo: "/assets/epsLogo.png",
     name: "EPS",
     image: "/assets/epsHome.JPG",
     p1: "Experimenting Tailwind CSS with React",
     p2: ' Landing page for an electric services company "EPS" ',
-    link: "https://eps-co.netlify.app",
+    link: "https://drive.google.com/drive/folders/1FpZaNSfNNerraK3KXL0iYS9sVhvU487T?usp=sharing",
   },
   {
     logo: "/assets/egycon-logo.png",
