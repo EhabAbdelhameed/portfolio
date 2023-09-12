@@ -74,9 +74,9 @@ const App = () => {
       <section className="reveal">
         <Work />
       </section>
-      <section className="reveal">
+      {/* <section className="reveal">
         <Contact />
-      </section>
+      </section> */}
       <section className="position-relative">
         <div className=" footer">
           <div className="contact-icon">

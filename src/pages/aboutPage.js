@@ -10,7 +10,7 @@ const About = () => {
         <Row>
           <Col xs="8" lg="3">
             {" "}
-            <Avatar image="/assets/me.jpg" alt="kareem kamal" width="80%" />
+            <Avatar image="/assets/me.png" alt="kareem kamal" width="80%" />
           </Col>
           <Col xs="8" lg="9">
             <div>
