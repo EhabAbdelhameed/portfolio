@@ -50,39 +50,14 @@ const PROJECT_LIST = [
   },
 
   {
-    logo: "/assets/epsLogo.png",
-    name: "EPS",
-    image: "/assets/epsHome.JPG",
+    logo: "/assets/emsCapture.png",
+    name: "EMS",
+    image: "/assets/emsCapture.PNG",
     p1: "Experimenting Tailwind CSS with React",
-    p2: ' Landing page for an electric services company "EPS" ',
+    p2: 'A Website made with React JS and .Net WebApi, to manage employees staf',
     link: "https://drive.google.com/drive/folders/1FpZaNSfNNerraK3KXL0iYS9sVhvU487T?usp=sharing",
   },
-  {
-    logo: "/assets/egycon-logo.png",
-    name: "EgyCon",
-    image: "/assets/egycon-1.PNG",
-    p1:
-      "created the entire frontend with css and bootstrap as per client's designing needs",
-    p2:
-      "Egycon is a fresh produce investment project that owns and administers large tracts of land in El Sharkia and Ismailia, Egypt",
-    link: "https://egycongroup.com/",
-  },
-  // {
-  //   logo: "/assets/dalya-logo.png",
-  //   name: "DalyArt",
-  //   image: "/assets/dalya-1.PNG",
-  //   p1: "Built with Gatsby.js SSR styled with css and bootstrab",
-  //   p2: " Art Gallery for showcasing paintings and interior design",
-  //   link: "https://Dalyart.netlify.app",
-  // },
-  {
-    logo: "/assets/karegram-logo.png",
-    name: "KareGram",
-    image: "/assets/karegram.PNG",
-    p1: "SSR App created with Next.js and styled with Tailwind",
-    p2: "InstaGram Clone",
-    link: "https://karegram.vercel.app",
-  },
+ 
 ];
 export const RenderProjectCards = (props) =>
   props.list.map((project, index) => {
